@@ -10,8 +10,9 @@ namespace FindMaximum
     {
         static void Main(string[] args)
         {
-            integerfindmax integerfindmax1 = new integerfindmax();
+            IntegerFindMax integerfindmax1 = new IntegerFindMax();
             integerfindmax1.FindMaxValue(10, 30, 40);
+            integerfindmax1.FindMaxValue(10.30f, 30.45f, 40.56f);
             Console.ReadLine();
         }
     }
