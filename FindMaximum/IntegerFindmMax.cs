@@ -44,7 +44,7 @@ namespace FindMaximum
                 Console.WriteLine("All Numbers are Equal! ");
 
         }
-        public void FindMaxValue(string first,string second, string third)
+        public void FindMaxValue(string first,string second, string third)    //UC3 Find maximum using Systeam
         {
             if (first.CompareTo(second) >= 0 && first.CompareTo(third) >= 0)
             {
